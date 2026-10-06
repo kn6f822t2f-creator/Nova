@@ -1,0 +1,5 @@
+#include "resource.h"
+
+// Embeds the compiled kernel driver into the loader exe.
+// Build driver project first, then loader -- build.bat handles order.
+IDR_DRIVER RCDATA "..\\bin\\x64\\Release\\spoofer.sys"
